@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 100%;
+    height: 400px;
+    background-color: teal;
+    margin-top: 170px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container_main{
+    width: 100%;
+    height: 400px;
+    background-color: thistle;
+}
+
+.div_top{
+    width: 100%;
+    height: 50px;
+    background-color: #546de5;
+}
+
+.div_top h6{
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.div_main{
+    width: 100%;
+    height: 110px;
+    background-color: #63cdda;
+}
+
+.div_main > p{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#input{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.inp{
+    width: 300px;
+    margin: 0 auto;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: rosybrown;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.btn_{
+    width: 100%;
+    height: 30px;
+}
+
+.Wrong_answer{
+    width: 100%;
+    height: 50px;
+    background-color: #63cdda;
+}
+
+.Wrong_answer > p{
+    font-size: 18px;
+}
+.btnj{
+    text-align: center;
+    font-size: 13px;
+    color: red;
+}
+
+#t1_{
+    display: none;
+}
+#t2_{
+    display: none;
+}
+#t3_{
+    display: none;
+}
+
+#prize{
+    width: 300px;
+    margin-top: 50px;
+}
+
+.prize_top{
+    width: 100%;
+    height: 30px;
+    background-color: #778beb;
+    text-align: center;
+    color: white;
+}
+
+.prize_top p{
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.anh_img{
+    width: 100%;
+}
+
+.anh_img img{
+    width: 100%;
+}
+
+#container_prize{
+    width: 100%;
+    height: 800px;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff00;
+    display: none;
+    animation: aniName 1s;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+@keyframes aniName {
+    to { top: 100; }
+   from { top: 0;}
+}
+
+#prize {
+    position: relative;
+    width: 300px;
+    animation: amiName 15s infinite;
+    -moz-animation: amiName 15s infinite;
+    -webkit-animation: amiName 15s infinite;
+    -o-animation: amiName 1s infinite;
+}
+
+@keyframes amiName {
+    0% { left: 0%; }
+    50% { left: 80%;}
+    100% { left: 0px; }
+}

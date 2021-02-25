@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- bài A Câu 1 -->
+    <h1>Bài A câu 1</h1>
+    <input type="text" id="t1">
+    <input type="text" id="t2">
+    <button onclick="findOppositeNumber()">click</button> 
+
+    <h1>Bài A câu 2, Nhập string</h1>
+    <div>
+        <input type="text" id="cong_chuoi_1">
+        <input type="text" id="cong_chuoi_2">
+        <button onclick="check_2()">click</button>
+    </div>
+
+    <!-- bài B-->
+    <h1>Bài B</h1>
+
+
+    <div id="container">
+        <div class="container_main">
+            <div class="div_top">
+                <h6>lucky number</h6>
+            </div>
+            <div class="div_main">
+                <p>Các Số Dự Đoán; 899155, 03969, 24448, 90151, 85554, 7524, 00000</p>
+               <div class="inp">
+                    <input type="number" name="" id="input">
+                </div>
+                <div class="btn">
+                    <button onclick="check__()" class="btn_">click</button>
+                </div>
+            </div>
+            <div class="Wrong_answer">
+                <p class="btnj" id="t1_">Bạn còn 2 lược chơi</p>
+                <p class="btnj" id="t2_">Bạn còn 1 lược chơi</p>
+                <p class="btnj" id="t3_">Bạn không còn lược chơi nào</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="container_prize" onclick="tat_container_prize()">
+        <div id="prize">
+            <div class="prize_top">
+                <p>Chúc Mừng Bạn Đã Trúng Được Con GÀ</p>
+            </div>
+            <div class="anh_img">
+                <img src="https://shopfile.net/uploads/products/large/20161005091550-GV048-Vector-ga-vang-2017.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="rrize_2"></div>
+    </div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
